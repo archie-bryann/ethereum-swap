@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-contract Token {
+contract Token { // ERC-20 standard
     string public name = "Dapp Token";
     string public symbol = "DAPP";
     uint256 public totalSupply = 1000000000000000000000000; // 1 million tokens in cents (18 0's is attached to it)
